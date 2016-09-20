@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script src="jquery ui日期控件/js/jquery-1.8.3.min.js"></script>
+</head>
+<style>
+	.div_wrap { width:500px; height:200px; border:1px solid #999999; font-size:20px;}
+	.div_inner { width:20em; height:100px; background:#58BADD;}
+</style>
+<body>
+	<FORM>
+	<p>
+      <label for="newsletter">我乐意接收新信息</label>
+      <input type="checkbox" class="checkbox" id="newsletter" name="newsletter">
+    </p>
+    <fieldset id="newsletter_topics">
+      <legend>主题 (至少选择两个) - 注意：如果没有勾选“我乐意接收新信息”以下选项会隐藏，但我们这里作为演示让它可见</legend>
+      <label for="topic_marketflash">
+        <input type="checkbox" id="topic_marketflash" value="marketflash" name="topic[]">Marketflash
+      </label>
+      <label for="topic_fuzz">
+        <input type="checkbox" id="topic_fuzz" value="fuzz" name="topic[]">Latest fuzz
+      </label>
+      <label for="topic_digester">
+        <input type="checkbox" id="topic_digester" value="digester" name="topic[]">Mailing list digester
+      </label>
+      <label for="topic" class="error" style="display:none">至少选择两个</label>
+    </fieldset>
+   </FORM>
+</body>
+</html>
+<script>
+	
+</script>
